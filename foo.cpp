@@ -24,6 +24,7 @@ void ShellSort(int *arr, int n){
 			arr[j + step] = temp;
 		}
 	}
+	InsertionSort(arr, n);
 }
 int FormStep(int *inc, int n){
 	int p1, p2, p3, s;
